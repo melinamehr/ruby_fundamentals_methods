@@ -38,13 +38,33 @@
 
 ## Exercise 8 ##
 
-expenses = [250, 10, 63, 29.72]
-new_expenses = [500, 130, 24.3, 249.4]
+# expenses = [250, 10, 63, 29.72]
+# new_expenses = [500, 130, 24.3, 249.4]
+#
+# puts expenses.sum
+#
+# def sum(array)
+#   return array.sum
+# end
+# puts sum(expenses)
+# puts sum(new_expenses)
 
-puts expenses.sum
-
-def sum(array)
-  return array.sum
+## Exercise 9 ##
+#
+def printlist(billsbillsbills)
+  symbol = "*"
+  billsbillsbills.each do |item|
+    puts "#{symbol} #{item}"
+  end
 end
-puts sum(expenses)
-puts sum(new_expenses)
+
+billsbillsbills = ["strawberries", "almond milk", "donuts", "oranges"]
+
+printlist(billsbillsbills)
+
+def addtolist(billsbillsbills, item)
+billsbillsbills << item
+end
+addtolist(billsbillsbills, "ricecake")
+puts ""
+printlist(billsbillsbills)
